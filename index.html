@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Capitán - Cevichería y Más</title>
+    <!-- Importación de fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/images.png" alt="Logo El Capitán">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#historia">Nuestra Historia</a></li>
+                <li><a href="#ubicaciones">Ubicaciones</a></li>
+                <li><a href="#ubicaciones" class="btn">Encuentra tu Local</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <img src="assets/una-vista-panor-mica-del-mar-al-atardecer-para-tra.png" alt="Fondo del mar" class="hero-bg">
+        <div class="hero-content">
+            <h1>Descubre el Sabor del Mar</h1>
+            <p>Platillos frescos con la tradición y sabor de "El Capitán"</p>
+            <a href="#ubicaciones" class="btn">Encuentra tu Local</a>
+        </div>
+    </section>
+
+    <!-- Esencia Section -->
+    <section class="esencia" id="esencia">
+        <div class="container">
+            <div class="section-title">
+                <h2>La Esencia de El Capitán</h2>
+            </div>
+            <div class="esencia-container">
+                <div class="esencia-item">
+                    <div class="esencia-icon">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <h3>Frescura</h3>
+                    <p>Trabajamos con los ingredientes más frescos del día para garantizar el mejor sabor en cada platillo.</p>
+                </div>
+                <div class="esencia-item">
+                    <div class="esencia-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Tradición</h3>
+                    <p>Recetas que mantienen la esencia de la cocina tradicional con un toque moderno y único.</p>
+                </div>
+                <div class="esencia-item">
+                    <div class="esencia-icon">
+                        <i class="fas fa-glass-cheers"></i>
+                    </div>
+                    <h3>Ambiente</h3>
+                    <p>Un espacio acogedor donde puedes disfrutar de momentos especiales con familiares y amigos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historia Section -->
+    <section class="historia" id="historia">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestra Historia y Pasión</h2>
+            </div>
+            <div class="historia-container">
+                <div class="historia-img">
+                    <img src="assets/una-imagen-del-equipo-de-cocina-trabajando-juntos- (1).png" alt="Historia El Capitán">
+                </div>
+                <div class="historia-content">
+                    <h3>La Travesía de El Capitán</h3>
+                    <p>Nuestra historia comenzó hace más de 20 años, cuando El Capitán decidió compartir los sabores del mar con todos. Desde entonces, nos hemos dedicado a perfeccionar cada receta.</p>
+                    <p>Con un compromiso inquebrantable con la calidad y el servicio, hemos crecido para convertirnos en un referente de la gastronomía marina en la región, manteniendo siempre la esencia que nos caracteriza.</p>
+                    <p>Nuestro equipo trabaja día a día para garantizar que cada visita sea una experiencia memorable, donde el sabor del mar se combina con la calidez de nuestro servicio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería Section Mejorada -->
+<section class="galeria" id="galeria">
+    <div class="container">
+        <div class="section-title">
+            <h2>Nuestra Experiencia Visual</h2>
+            <p class="subtitle">Descubre el sabor del mar a través de nuestros momentos especiales</p>
+        </div>
+        
+        <div class="galeria-tabs">
+            <button class="tab-btn active" data-filter="all">Todos</button>
+            <button class="tab-btn" data-filter="platos">Platos</button>
+            <button class="tab-btn" data-filter="ambiente">Ambiente</button>
+            <button class="tab-btn" data-filter="ingredientes">Ingredientes</button>
+        </div>
+        
+        <div class="galeria-grid">
+            <div class="galeria-item platos" data-category="platos">
+                <div class="galeria-overlay galeria-circular">
+                    <img src="assets/475162597_122204413478194821_3672477988110687548_n.jpg" alt="Ceviche Especial">
+                    <div class="overlay-content">
+                        <h3>Ceviche Especial</h3>
+                        <p>Nuestro plato estrella con los ingredientes más frescos del mar</p>
+                        <span class="view-more">+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="galeria-item platos" data-category="platos">
+                <div class="galeria-overlay galeria-circular">
+                    <img src="assets/475118724_122204413058194821_956626469873968381_n.jpg" alt="Arroz Marinero">
+                    <div class="overlay-content">
+                        <h3>Arroz Marinero</h3>
+                        <p>Una explosión de sabores marinos en cada bocado</p>
+                        <span class="view-more">+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="galeria-item ambiente" data-category="ambiente">
+                <div class="galeria-overlay galeria-circular">
+                    <img src="assets/im-genes-del-interior-del-restaurante-con-mesas-de.png" alt="Ambiente Costero">
+                    <div class="overlay-content">
+                        <h3>Ambiente Costero</h3>
+                        <p>Un espacio diseñado para transportarte a la costa</p>
+                        <span class="view-more">+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="galeria-item ingredientes" data-category="ingredientes">
+                <div class="galeria-overlay galeria-circular">
+                    <img src="assets/primeros-planos-de-ingredientes-frescos-como-limon.png" alt="Selección Premium">
+                    <div class="overlay-content">
+                        <h3>Selección Premium</h3>
+                        <p>Solo utilizamos ingredientes de la más alta calidad</p>
+                        <span class="view-more">+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="galeria-item platos" data-category="platos">
+                <div class="galeria-overlay galeria-circular">
+                    <img src="assets/langosta-o-camarones-en-un-plato-gourmet-.png" alt="Langosta Especial">
+                    <div class="overlay-content">
+                        <h3>Langosta Especial</h3>
+                        <p>Una delicia para los paladares más exigentes</p>
+                        <span class="view-more">+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="galeria-item platos" data-category="platos">
+                <div class="galeria-overlay galeria-circular">
+                    <img src="assets/475326440_122204413514194821_6002167082943682978_n.jpg" alt="Terraza Marina">
+                    <div class="overlay-content">
+                        <h3>Causa Rellena</h3>
+                        <p>Causa rellena de marisco</p>
+                        <span class="view-more">+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal para imágenes ampliadas -->
+        <div id="galeria-modal" class="modal">
+            <span class="close-modal">&times;</span>
+            <img class="modal-content" id="modal-image">
+            <div id="modal-caption"></div>
+        </div>
+    </div>
+</section>
+
+    <!-- Comentarios / Testimonios Section Restaurado -->
+    <section class="testimonios" id="testimonios">
+        <div class="container">
+            <div class="section-title">
+                <h2>Comentarios de Nuestros Clientes</h2>
+            </div>
+            <div class="testimonios-container">
+                <div class="testimonios-slider">
+                    <div class="testimonios-slide active">
+                        <img class="testimonio-avatar" src="https://randomuser.me/api/portraits/women/44.jpg" alt="María Rodríguez">
+                        <div class="testimonio-content">
+                            "La mejor experiencia gastronómica que he tenido. Los ceviches son increíblemente frescos y el servicio es excepcional. ¡Volveré pronto!"
+                        </div>
+                        <div class="testimonio-autor">María Rodríguez</div>
+                        <div class="testimonio-cargo">Cliente frecuente</div>
+                    </div>
+                    <div class="testimonios-slide">
+                        <img class="testimonio-avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Carlos Mendoza">
+                        <div class="testimonio-content">
+                            "Un lugar encantador con platillos que realmente capturan la esencia del mar. Ambiente acogedor y personal muy atento. Totalmente recomendado."
+                        </div>
+                        <div class="testimonio-autor">Carlos Mendoza</div>
+                        <div class="testimonio-cargo">Amante del mar</div>
+                    </div>
+                    <div class="testimonios-slide">
+                        <img class="testimonio-avatar" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Laura González">
+                        <div class="testimonio-content">
+                            "Visito El Capitán cada vez que puedo. La calidad nunca decepciona y siempre encuentro algo nuevo para probar. ¡Un tesoro gastronómico!"
+                        </div>
+                        <div class="testimonio-autor">Laura González</div>
+                        <div class="testimonio-cargo">Gastrónoma</div>
+                    </div>
+                </div>
+                <div class="testimonios-arrows">
+                    <span class="testimonios-arrow" id="prevTestimonio"><i class="fas fa-chevron-left"></i></span>
+                    <span class="testimonios-arrow" id="nextTestimonio"><i class="fas fa-chevron-right"></i></span>
+                </div>
+                <div class="testimonios-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicaciones Section -->
+    <section class="ubicaciones" id="ubicaciones">
+        <div class="container">
+            <div class="section-title">
+                <h2>Encuentra Tu El Capitán</h2>
+            </div>
+            <div class="ubicaciones-container">
+                <div class="ubicaciones-lista">
+                    <div class="ubicacion-item">
+                        <div class="ubicacion-nombre">El Capitán - Chincha Alta</div>
+                        <div class="ubicacion-direccion">C. Rene Toche Gropo s/n Chincha Alta (Referencia al lado del colegio Leonnard Euler) </div>
+                        <div class="ubicacion-horario">Lun-Dom: 08:00 - 17:00</div>
+                        <div class="ubicacion-telefono">+51 123456789</div>
+                    </div>
+                </div>
+                <a href="#" class="btn">Ver Todas las Ubicaciones</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final Section -->
+    <section class="cta-final">
+        <div class="container">
+            <h2>¿Listo para una Experiencia Inolvidable?</h2>
+            <p>Te esperamos en cualquiera de nuestros locales para brindarte una experiencia gastronómica única.</p>
+            <a href="#ubicaciones" class="btn">Encuentra tu Local Ahora</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="assets/images.png" alt="Logo El Capitán">
+                    <p>La mejor experiencia del sabor del mar.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#historia">Nuestra Historia</a></li>
+                        <li><a href="#ubicaciones">Ubicaciones</a></li>
+                        <li><a href="#">Menú</a></li>
+                        <li><a href="#">Reservaciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contacto">
+                    <h3>Contáctanos</h3>
+                    <p>Central: +51 1 234 5678</p>
+                    <p>Email: info@elcapitan.com</p>
+                    <p>Horario de Atención:<br>Lun - Dom: 12:00 - 22:00</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 El Capitán - Cevichería y Más. Todos los Derechos Reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.0/swiper-bundle.min.js"></script>
